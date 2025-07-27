@@ -1,0 +1,46 @@
+.dropdown-menu{
+  width: 5vh;
+}
+
+.text-privet{
+  padding: 5vh;
+}
+
+.form-label{
+  padding: 2vh;
+}
+
+.colomn{
+  transition: .5s;
+}
+
+.colomn:hover{
+  transform: scale(1.03);
+}
+
+.slider-img{
+  transition: 1s;
+  overflow: hidden;
+}
+
+.slider-img:hover{
+  transform: scale(1.2);
+}
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 900;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 2vh;
+  cursor: pointer;
+  transition: bottom 0.3s ease;
+}
+
+#scrollToTopBtn:hover {
+  background-color: grey;
+}
